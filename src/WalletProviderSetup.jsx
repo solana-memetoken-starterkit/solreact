@@ -1,10 +1,9 @@
-import React, { useMemo, useEffect } from 'react';
+import React, { useMemo} from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { PhantomWalletAdapter, SolflareWalletAdapter } from '@solana/wallet-adapter-wallets';
 import {
     WalletModalProvider,
     WalletConnectButton,
-    WalletMultiButton
 
 } from '@solana/wallet-adapter-react-ui';
 import SendSOLToRandomAddress from './button';
