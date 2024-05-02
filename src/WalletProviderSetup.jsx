@@ -28,7 +28,7 @@ export const WalletInt = () => {
             <WalletProvider wallets={wallets}>
                 <WalletModalProvider>
                     <div className="mt-4 flex flex-col items-center">
-                        <WalletConnectButton autoConnect />
+                        <WalletConnectButton />
                         <SendSOLToRandomAddress />
                     </div>
                 </WalletModalProvider>
